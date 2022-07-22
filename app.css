@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: aqua;
+    display: flex;
+    min-height: 100vh;
+}
+.left {
+    background-image: url("img/backgroundleft.avif");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.left>div {
+    margin-top: 30%;
+    color:  white;
+    text-align: center;
+}
+#logo {
+    font-size: 50px;
+    background-color:rgba(0, 0, 0, 0.5)
+}
+.right {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.right>div {
+    flex: 1;
+}
+.righttop {
+    background-color: rgba(236, 232, 226, 0.976);
+    font-family: roboto;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 5%;
+    padding-right: 20%;
+}
+.rightmid {
+    background-color: white;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    padding-right: 20%;
+    height: 50%;
+}
+.inputwrapper {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.forminp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.forminp>div {
+    display: flex;
+}
+.rightbot {
+    background-color: rgba(236, 232, 226, 0.976);
+}
+
+.rightbot {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+#btnsub {
+    width: 200px;
+    padding: 16px;
+    border: .2 black solid;
+    border-radius: 10px;
+    background-color: rgb(33, 82, 33);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.rightbot>div {
+    padding-top: 5%;
+}
+a:link, a:visited {
+    color: rgb(33, 82, 33);
+    font-weight: 700;
+    text-decoration: none;
+}
